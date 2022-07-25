@@ -4,7 +4,7 @@ global:
 
 adservice:
   enabled: true
-  version: 0.0.1
+  version: 0.0.2
   # Default values for opentelemetry-demo-webstore.
   # This is a YAML-formatted file.
   # Declare variables to be passed into your templates.
@@ -14,7 +14,7 @@ adservice:
   image:
     repository: ghcr.io/openinsight-proj/adservice-springcloud
     # Overrides the image tag whose default is the chart appVersion.
-    tag: "adservice-v0.0.1"
+    tag: "adservice-v0.0.2"
 
   imagePullSecrets: []
   nameOverride: "adservice"
